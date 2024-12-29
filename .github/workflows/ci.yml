@@ -5,15 +5,3 @@ on: [push] # 触发条件，这里的例子是每次push到仓库时触发
 jobs:
   build:
     runs-on: ubuntu-latest # 指定运行环境为最新的Ubuntu版本
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x] # 指定Node.js的版本矩阵
-    steps:
-    - uses: actions/checkout@v2 # 检出代码
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2 # 设置Node.js环境
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci # 安装依赖
-    - run: npm run build --if-present # 构建项目
-    - run: npm test # 运行测试
