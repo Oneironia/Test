@@ -35,7 +35,7 @@ This is the front page of the Project Löyly. I am testing the webpage and hope 
 
 <div class="lang-buttons">
   <button class="lang-button" onclick="window.location.href='/zh/about/'">中文版</button>
-  <button class="lang-button" onclick="window.location.href='/about/'">English</button>
+  <button class="lang-button" onclick="window.location.href='/'">English</button>
 </div>
 
 About
@@ -54,7 +54,7 @@ If you have any problems or suggestion, please contact me via:
 [Lofter:](https://prublu.lofter.com/) https://prublu.lofter.com/<br />
 <br />
 QQ: 3184006465<br />
-[Email:](oneironia@gmail.com)oneironia@gmail.com
+[Email:](mailto:oneironia@gmail.com)oneironia@gmail.com
 
 Acknowledgement
 ------
