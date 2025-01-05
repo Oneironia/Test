@@ -34,7 +34,7 @@ This is the front page of the Project Löyly. I am testing the webpage and hope 
 </style>
 
 <div class="lang-buttons">
-  <button class="lang-button" onclick="window.location.href='/zh/about/'">中文版</button>
+  <button class="lang-button" onclick="window.location.href='/zh'">中文版</button>
   <button class="lang-button" onclick="window.location.href='/'">English</button>
 </div>
 
@@ -45,7 +45,7 @@ Löyly is the working title of the project. It refers to the steam that rises fr
 
 !Important!
 ------
-Please check the license of the original authors before use. Any reposting should mark the mainpage of [our project](https://github.com/Oneironia/PruBlu). Finally, I hope you can star our project :)
+Please check the license of the original authors before use. Any reposting should mark the mainpage of [our project](https://project-loyly.github.io/). Finally, I hope you can star our project :)
 
 Contact Me
 ------
